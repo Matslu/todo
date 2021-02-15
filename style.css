@@ -1,0 +1,78 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 5px 5px 80%;
+}
+#inputForm {
+    display:block;
+    text-align: center; 
+    
+}
+
+ul {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0px 0;
+    padding: 0;
+    min-width: 160px; 
+    display: inline-block;
+    flex-direction: column;
+    flex-flow: wrap;
+    }
+
+ul li {   
+position: relative;
+left:0;
+right:0;
+list-style-type: none;
+background: rgb(255, 255, 226);
+font-size: 16px;
+min-width: 185px;
+display: block;
+margin: 4px 4px 4px 4px;
+border: 1px ;
+border-style: outset;
+border-width: thin;*/
+
+}
+ul li:hover{
+background: #ddd;
+}
+
+h3 {
+    font-size: 20px;
+    position: sticky;
+    text-align: center;
+    background-color: rbg(255,255,226);
+    }
+.close {
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+
+.close:hover {
+    transform: scale(1.5);
+    transition: ease-in-out 0,2s;
+    text-decoration: solid;
+    text-shadow: 1px 1px 20%;
+    cursor: pointer;
+}
+.daysList {
+    background:rgb(247, 247, 227);
+}
+
+
+
+
+
