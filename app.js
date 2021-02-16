@@ -1,4 +1,4 @@
-//adding new item on tasks-list with close button
+
 
 function newLi() {
     const listItem = document.createElement("li");
@@ -27,7 +27,12 @@ function newLi() {
     }
   
 };
- // making "X" delete item from list
+
+//adding new item on tasks-list with close button
+
+
+
+
 
 let close = document.getElementsByClassName("close");
 let i;
@@ -38,8 +43,7 @@ for (i = 0; i < close.length; i++) {
     }
 }
 
-
-
+ // making "X" delete item from list
 
 
 
